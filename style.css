@@ -16,9 +16,6 @@ img {
     max-width: 100%; 
     height: auto; 
 }
-#main{
-    min-height:100%;
-}
 #logo-img{
     width: 100px;
     border-radius:50%;
@@ -51,7 +48,8 @@ img {
 
 .nav-bar li a:hover,
 .nav-bar .menu-btn:hover {
-  background-color: #f4f4f4;
+  color: white;
+  background-color:  rgba(0, 128, 0, 0.459);
 }
 
 .selected a{
@@ -143,7 +141,7 @@ img {
 
 
 .main{
-  margin-left: auto;
+  /*margin-left: auto;*/
   padding: 150px 15vw 20px;
   text-align: center;
 }
@@ -151,6 +149,13 @@ h1{
   font-size: 34px;
   font-family: 'Poppins', sans-serif;
   line-height: 2em;
+}
+h2{
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 2em;
+  color: rgb(143, 143, 143);
+  text-transform: uppercase;
 }
 .line{
   width: 10vw;
@@ -163,7 +168,30 @@ h1{
   line-height: 1.5em;
 }
 
-
+/*****page contact*/
+#contact-title{
+  display: flex;
+  text-align: left;
+}
+#contact-title-text{
+  padding-right:100px;
+}
+form{
+  text-align: left;
+}
+form label{
+  padding-bottom: 5px;
+}
+.rgpd{
+  font-size: 14px;
+  text-align: left;
+  font-style: italic;
+  padding-top:10px;
+  padding-bottom:20px;
+}
+#emailHelp{
+  font-size:14px;
+}
 
 
 footer{
@@ -176,6 +204,7 @@ footer{
 footer p{
     font-size: 12px;
     color: #000;
+
 }
 
 /*les grilles*/

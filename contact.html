@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>KLR creation</title>
+</head>
+<body>
+   
+    <nav class="nav-bar">
+        <div class="logo"><a href="#"><img id="logo-img" src="images/logo.png" alt="logo-claire-bidet"></a></div>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="./index.html">Identité visuelle</a></li>
+            <li><a href="">Illustration</a></li>
+            <li><a href="#">Déco</a></li>
+            <li><a href="#">A propos de moi</a></li>
+            <li class="selected"><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav> 
+
+    <div class="main">
+        <div id="contact-title">
+            <div id="contact-title-text">
+                <h1>Contactez-moi </h1>
+                <hr class="line">
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div>
+                <img src="images/contact2.PNG" alt="contact">
+            </div>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="inputEmail">Nom, prénom</label>
+                <input type="text" class="form-control" id="inputName">
+            </div>
+            <div class="form-group">
+                <label for="inputCompany">Entreprise</label>
+                <input type="text" class="form-control" id="inputCompany">
+            </div>
+
+            <div class="form-group">
+              <label for="inputEmail">Email</label>
+              <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="nom@exemple.fr"> 
+              <small id="emailHelp" class="form-text text-muted">Ne sera pas utilisé à des fins commerciales.</small>
+            </div>
+            <div class="form-group">
+                <label for="inputMessage">Message</label>
+                <textarea class="form-control" id="inputMessage" rows="3"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-success">Envoyer</button>
+          </form>
+
+          <p class="rgpd">Pour en savoir plus sur la gestion de vos données personnelles et pour exercer vos droits, reportez-vous aux Mentions légales et politique de confidentialité.</p>
+
+       
+    </div>
+  
+    <footer>
+        <p>Claire Bidet . Création graphique . Tous droits réservés . Mentions légales et politique de confidentialité</p>
+    </footer>
+
+</body>
+</html>
